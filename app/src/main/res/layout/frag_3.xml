@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F2F5"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56px"
+        android:text="购物车"
+        android:background="#fff"
+        android:id="@+id/shop"
+        android:gravity="center"
+        android:textSize="46px"
+        />
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:id="@+id/elv"
+        android:layout_below="@id/shop"
+        android:layout_marginTop="10px"
+        android:layout_height="match_parent">
+    </ExpandableListView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    android:layout_height="80px">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/quan_box"
+        android:gravity="center"
+        android:layout_margin="10px"
+        android:text="全选"
+        android:textSize="28px"
+        android:textColor="#f00"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="总计："
+        android:id="@+id/allprice"
+        android:textSize="28px"
+        android:gravity="center"
+        />
+    <Button
+        android:layout_width="224px"
+        android:layout_height="match_parent"
+        android:text="去结算"
+        android:background="#F23030"
+        android:textColor="#fff"
+        />
+</LinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

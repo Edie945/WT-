@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/jian"
+        android:layout_width="30px"
+        android:layout_height="30px"
+        android:background="@mipmap/jiajia"
+        android:gravity="center"
+        android:text="-"
+        />
+    <TextView
+        android:layout_width="50px"
+        android:text="1"
+        android:id="@+id/num"
+        android:background="@mipmap/jiajia"
+        android:gravity="center"
+        android:layout_height="30px" />
+
+    <Button
+        android:id="@+id/jia"
+        android:layout_width="30px"
+        android:layout_height="30px"
+        android:background="@mipmap/jiajia"
+        android:gravity="center"
+        android:text="+"
+         />
+
+</com.zhy.autolayout.AutoLinearLayout>
